@@ -1,5 +1,7 @@
 #!/bin/bash
-set -euo pipefail
+set -e
+set -u
+set -o pipefail 2>/dev/null || true
 
 # =====================================================
 # VPN INSTALL (CURL MODE SAFE)
